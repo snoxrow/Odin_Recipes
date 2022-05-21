@@ -1,36 +1,37 @@
 html {
-    background-image: url(../download.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(187,132,209,1) 40%, rgba(44,203,235,1) 97%);
 }
-ul li:nth-child(odd) {
-    background: red;
+
+h1 {
+    color: aquamarine;
     text-align: center;
+    font-size: 40px ;
 }
 
-ul li:nth-child(even) {
-    background: lightgreen;
-}
-
-
-ol li:nth-child(odd) {
-    background: rgb(194, 36, 168);
-
-}
-
-ol li:nth-child(even) {
-    background: rgb(167, 199, 93);
-}
 
 body {
     margin: 20px;
 }
- .one {
-    margin: 20px 30px 40px 20px;
-    border: 10px solid coral; 
-    padding: 2%;
-    border-radius: 20px;
-    color: aqua;
-    background-color: black;
+
+.two {
+    text-align: center;
+}
+
+#Text {
+    color: aquamarine;
+    font-size: 20px;
+}
+ #Border {
+    border: 4px solid black; 
+    padding: 8px 8px;
+    font-size: 15px;
+   
+}
+img {
+    margin-left: auto;
+    display: block;
+}
+#text_2 {
+    color: #824899;
 }

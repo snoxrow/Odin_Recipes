@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Rio_Grande;
+    src: url(../Images/RioGrande.ttf);
+  }
+
+
+h1 {
+    background: transparent;
+    font-size: 35px;
+    color: gray;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Rio_Grande", sans-serif;
+    box-shadow: 10px 10px 10px;
+
+    }
+a {
+    color: rgb(53, 42, 204);
+}
+p {
+    font-size: 24px;
+}
+ul {
+    font-size: 20px;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
